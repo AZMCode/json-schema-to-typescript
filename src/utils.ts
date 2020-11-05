@@ -158,8 +158,8 @@ export function toSafeString(string: string) {
   return upperFirst(
     // remove accents, umlauts, ... by their basic latin letters
     deburr(string)
-      // replace chars which are not valid for typescript identifiers with whitespace
-      .replace(/(^\s*[^a-zA-Z_$])|([^a-zA-Z_$\d])/g, ' ')
+      // replace chars which are not valid for typescript identifiers with whitespace (Excluding arrow brackets, to allow for generics)
+      .replace(/(^\s*[^a-zA-Z<>_$])|([^a-zA-Z<>_$\d])/g, ' ')
       // uppercase leading underscores followed by lowercase
       .replace(/^_[a-z]/g, match => match.toUpperCase())
       // remove non-leading underscores followed by lowercase (convert snake_case)
