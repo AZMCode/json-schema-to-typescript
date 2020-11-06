@@ -60,6 +60,23 @@
     "prettier": "^2.0.5",
     "stdin": "0.0.1"
   },
+  "denoify": {
+    "ports": {
+      "@types/json-schema": "^7.0.4",
+      "cli-color": "https://cdn.skypack.dev/cli-color@2.0.0",
+      "glob": "https://cdn.skypack.dev/glob@7.1.6",
+      "glob-promise": "https://cdn.skypack.dev/glob-promise@3.4.0",
+      "is-glob": "https://cdn.skypack.dev/is-glob@4.0.1",
+      "json-schema-ref-parser": "https://cdn.skypack.dev/json-schema-ref-parser@9.0.1",
+      "json-stringify-safe": "https://cdn.skypack.dev/json-stringify-safe@5.0.1",
+      "lodash": "https://cdn.skypack.dev/lodash@4.17.15",
+      "minimist": "https://cdn.skypack.dev/minimist@1.2.5",
+      "mkdirp": "https://cdn.skypack.dev/mkdirp@1.0.4",
+      "mz": "https://cdn.skypack.dev/mz@2.7.0",
+      "prettier": "https://cdn.skypack.dev/prettier@2.0.5",
+      "stdin": "https://cdn.skypack.dev/stdin@0.0.1"
+    }
+  },
   "devDependencies": {
     "@types/cli-color": "^2.0.0",
     "@types/glob": "^7.1.1",
