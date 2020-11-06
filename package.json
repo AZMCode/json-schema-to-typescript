@@ -102,7 +102,7 @@
     "shx": "^0.3.2",
     "tsify": "^4.0.1",
     "typescript": "^3.8.3",
-    "denoify": "^4.0.1"
+    "denoify": "^0.6.1"
   },
   "ava": {
     "files": [
